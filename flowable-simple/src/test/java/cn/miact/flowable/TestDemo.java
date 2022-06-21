@@ -30,7 +30,7 @@ public class TestDemo {
         ProcessEngineConfiguration cfg = new StandaloneProcessEngineConfiguration();
         cfg.setDatabaseSchemaUpdate(ProcessEngineConfiguration.DB_SCHEMA_UPDATE_TRUE);
         cfg.setJdbcDriver("com.mysql.cj.jdbc.Driver");
-        cfg.setJdbcUrl("jdbc:mysql://81.70.249.58:3306/flowable-study?useSSL=false&serverTimezone=UTC");
+        cfg.setJdbcUrl("jdbc:mysql://xx.xx.xx.xx:3306/flowable-study?useSSL=false&serverTimezone=UTC");
         cfg.setJdbcUsername("root");
         cfg.setJdbcPassword("123456");
         ProcessEngine processEngine = cfg.buildProcessEngine();
@@ -45,7 +45,7 @@ public class TestDemo {
         configuration = new StandaloneProcessEngineConfiguration();
         // 配置 相关的数据库的连接信息
         configuration.setJdbcDriver("com.mysql.cj.jdbc.Driver");
-        configuration.setJdbcUrl("jdbc:mysql://81.70.249.58:3306/flowable-study?useSSL=false&serverTimezone=UTC");
+        configuration.setJdbcUrl("jdbc:mysql://xx.xx.xx.xx:3306/flowable-study?useSSL=false&serverTimezone=UTC");
         configuration.setJdbcUsername("root");
         configuration.setJdbcPassword("123456");
         // 如果数据库中的表结构不存在就新建
